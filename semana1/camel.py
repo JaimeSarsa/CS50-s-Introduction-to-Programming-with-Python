@@ -4,11 +4,10 @@ def convertToSneakCase(str):
     for letra in range(len(str)):
         if str[letra].isupper():
             print(f"_", end="")
-        print(str[letra], end="")
+        print(str[letra].lower(), end="")
         
     
     
-
 
 def main():
     cadena = input("camelCase: ")
